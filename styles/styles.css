@@ -20,4 +20,16 @@ html body {
 	clear:both;
 }
 
-.
+.adopt-left-column {
+	float:left;
+	width: 66%;
+	height: 70%;
+	background-color: lime;
+}
+
+.adopt-right-column {
+	float:left;
+	width: 34%;
+	height:70%;
+	background-color: pink;
+}
