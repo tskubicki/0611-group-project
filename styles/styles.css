@@ -27,6 +27,7 @@ html body {
 	width: 66%;
 	background-color: lime;
 	text-align: center;
+	border-right: thin solid black;
 }
 
 .adopt-left-column form h1, h4, input {
