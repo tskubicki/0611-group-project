@@ -21,15 +21,34 @@ html body {
 }
 
 .adopt-left-column {
+	box-sizing: border-box;
 	float:left;
+	padding: 15px;
 	width: 66%;
-	height: 70%;
 	background-color: lime;
+	text-align: center;
 }
 
+.adopt-left-column form h1, h4, input {
+	margin:4px;
+	font-family: Arial;
+}
+
+.adopt-left-column form input {
+	margin-left:5em
+}
+
+.adopt-left-column form h1 {
+	padding-bottom: 10px;
+	border-bottom: thin black solid;
+}
+
+
 .adopt-right-column {
+	box-sizing: border-box;
 	float:left;
+	padding: 15px;
 	width: 34%;
-	height:70%;
 	background-color: pink;
 }
+
