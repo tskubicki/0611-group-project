@@ -43,16 +43,40 @@ ul.nav li {
 
 
 .adopt-left-column {
+	box-sizing: border-box;
 	float:left;
+	padding: 15px;
 	width: 66%;
-	height: 70%;
 	background-color: lime;
+	text-align: center;
+	border-right: thin solid black;
+}
+
+.adopt-left-column form h1, h4, input {
+	margin:4px;
+	font-family: Arial;
+}
+
+.adopt-left-column table {
+	margin: 0 auto;
+}
+
+.adopt-left-column form h1 {
+	padding-bottom: 10px;
+	border-bottom: thin black solid;
+}
+
+.adopt-left-column form input[type=submit] {
+	margin:4px;
+	font-family: Arial;
+	padding:5px;
 }
 
 .adopt-right-column {
+	box-sizing: border-box;
 	float:left;
+	padding: 15px;
 	width: 34%;
-	height:70%;
 	background-color: pink;
 }
 
@@ -136,14 +160,15 @@ ul.nav li {
 }
 
 .about-sad3 img{
-	width: 400px;
+	width: 360px;
 	float: left;
+	margin:20px;
 
 }
 
 
 .about-review {
-	width: 500px;
+	width: 400px;
 	margin: 20px;
 	font-family: arial;
 	float:left;
@@ -165,7 +190,25 @@ padding-bottom: 10px;
 	font-size: 1.3em;
 	font-family: times;
 	line-height: 21px;
-	text-align: justify;}
+	text-align: justify;
+}
 
 
 
+.adopt-right-column img {
+	display: block;
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	border: thin solid black;
+}
+
+.adopt-right-column h2{
+	margin: 5px;
+	text-align: center;
+	border-bottom: thin solid black;
+}
+
+.adopt-right-column p{
+	margin: 5px;
+}
