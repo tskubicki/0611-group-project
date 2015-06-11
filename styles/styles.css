@@ -11,9 +11,13 @@ html body {
 
 .wrapper {
 	width: 960px;
+	height: 100%;
 	background-color: yellow;
+	margin: 0 auto;
 }
 
 .clearfix {
 	clear:both;
 }
+
+.
