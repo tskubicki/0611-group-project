@@ -10,6 +10,13 @@ html body {
 	height: 100%;
 }
 
+.wrapper {
+	width: 960px;
+	min-width: 960px;
+	height: 100%;
+	margin:0 auto;
+}
+
 .nav {
 	text-align: center;
 	padding:30px;
