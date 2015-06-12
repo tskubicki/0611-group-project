@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
 * {
 	margin: 0;
 	border: 0;
@@ -28,7 +30,7 @@ ul.nav a {
 }
 
 ul.nav li {
-	font-family: arial;
+	font-family: Open Sans;
 	font-weight: bold;
 	text-transform: uppercase;
 	display: inline;	
@@ -53,7 +55,7 @@ ul.nav li {
 
 .adopt-left-column form h1, h4, input {
 	margin:4px;
-	font-family: Arial;
+	font-family: Open Sans;
 }
 
 .adopt-left-column table {
@@ -71,7 +73,7 @@ ul.nav li {
 
 .adopt-left-column form input[type=submit] {
 	margin:4px;
-	font-family: Arial;
+	font-family: Open Sans;
 	padding:5px;
 }
 
@@ -80,7 +82,7 @@ ul.nav li {
 	float:left;
 	padding: 15px;
 	width: 34%;
-	font-family: Arial;
+	font-family: Open Sans;
 }
 
 .adopt-right-column img {
