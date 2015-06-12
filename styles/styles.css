@@ -30,13 +30,6 @@ ul.nav li {
 
 }
 
-.wrapper {
-	width: 960px;
-	/* height: 100%; -> This cuts the background off, 
-	if you scroll at all in the page */ 
-	margin: 0 auto;
-}
-
 .clearfix {
 	clear:both;
 }
