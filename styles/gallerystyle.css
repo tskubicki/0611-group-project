@@ -1,0 +1,41 @@
+			body {
+				padding: 0;
+				margin: 0;
+			}			
+
+			.nav {
+			text-align: center;
+			padding:20px;
+			margin-bottom:;
+			background-color: #78CFE6;
+			border: 2px solid black;
+			}
+			
+			ul.nav a {
+			text-decoration: none;
+			color: white;
+			}
+		
+			ul.nav li {
+			font-family: arial;
+			font-size: 20px;
+			font-weight: bold;
+			text-transform: uppercase;
+			display: inline;	
+			list-style: None;
+			word-spacing: 60px;
+			}
+
+			.gallerycontainer h1, h3{ 
+			text-align: center;
+			}
+
+			.gallerycontainer {
+				width: 810px;
+				margin: 0 auto;
+			}
+			
+			.gallerycontainer h1 {
+				padding: 10px 0;
+				font-family: sans-serif;
+				color: #78CFE6;
