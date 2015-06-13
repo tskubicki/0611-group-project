@@ -22,7 +22,11 @@ font-weight: bold;
 text-transform: uppercase;
 display: inline;	
 list-style: None;
-word-spacing: 50px;
+word-spacing: 100px;
+}
+
+a {
+	text-align: center;
 }
 
 .gallerycontainer h1, h2{ 
@@ -42,21 +46,31 @@ text-align: center;
 
 .gallerytextcontainer {
 	height: 275px;
-	padding-left: 15px;
+	
 	padding-bottom: 20px;
 
 }
 		
 .gallerycol1 {
-	width: 350px;
+
+	width: 275px;
 	float: left;
-	padding-left: 50px;
+	padding-left: 33px;
+	margin-bottom: 50px;
 }
 
 .gallerycol2 {
-	width: 350px;
-	float: right;
-	padding-right: 50px;
+	width: 275px;
+	float: left;
+	padding-left: 33px;
+	margin-bottom: 50px;
+}
+
+.gallerycol3 {
+	width: 275px;
+	float: left;
+	padding-left: 33px;
+	margin-bottom: 50px;
 }
 
 .dogheader {
