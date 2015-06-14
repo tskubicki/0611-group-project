@@ -25,7 +25,7 @@ ul.nav li {
 	font-weight: bold;
 	text-transform: uppercase;
 	display: inline;	
-	list-style: None;
+	list-style: none;
 	word-spacing: 20px;
 
 }
@@ -81,21 +81,21 @@ ul.nav li {
 }
 
 
-ABOUT SECTION
+/*ABOUT SECTION*/
 
-.about-header h2{
+
+.about-header > h2{
 	font-size: 3em;
 	text-align: center;
 	padding-bottom: 20px;
 	font-family: opensans;
-	letter-spacing: -2px;
+	letter-spacing: 0px;
 }
 
 
-.about-header h2:hover{
+.about-header > h2:hover{
 	font-size: 3em;
 	text-align: center;
-	padding-bottom: 20px;
 	font-family: opensans;
 	letter-spacing: 20px;
 }
@@ -112,7 +112,6 @@ ABOUT SECTION
 	font-family: arial;
 	font-size: 1.5em;
 	color: grey;
-	padding-bottom: 10px;
 
 }
 
@@ -135,8 +134,6 @@ ABOUT SECTION
 	font-family: arial;
 	font-size: 1.5em;
 	color: grey;
-	padding-bottom: 10px;
-
 
 }
 
@@ -151,29 +148,73 @@ ABOUT SECTION
 
 .about-sideimages{
 	width: 170px;
+	height: auto;
 	float: right;
+
 }
 
+
+.about-sideimages > h3{
+	text-align: center;
+
+}
 
 .about-sideimages img{
 	max-width: 125px;
 	padding:30px;
 	max-height: auto;
+	margin-bottom: -20px;
 }
 
-.about-sad3 img{
-	width: 360px;
+.about-review .about-sad3 img{
+	width: 100px;
+	height: 100px;	
 	float: left;
-	margin-left:20px;
+	margin-right: 20px;
+}
 
+.sidebutton {
+	margin-top: 10px;
+	padding: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: arial;
+	font-weight: bold;
+	 background: #cb4e4e;
+    color: #fff;
+    box-shadow: 0 6px #ab3c3c;
+    text-decoration: none;
+}
+
+
+.sidebutton a{
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: arial;
+	font-weight: bold;
+	background: #cb4e4e;
+    color: #fff;
+    box-shadow: 0 6px #ab3c3c;
+}
+
+
+.sidebutton a{
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: arial;
+	font-weight: bold;
+	background: #cb4e4e;
+    color: #fff;
 }
 
 
 .about-review {
-	width: 400px;
-	margin: 20px;
+	width: 750px;
 	font-family: arial;
 	float:left;
+	margin-left: 20px;
 }
 
 .about-review h4 {
@@ -184,35 +225,17 @@ padding-bottom: 10px;
 
 .about-review h5 {
 font-size: 1.4em;
-padding-bottom: 10px;
 
 }
 
-.about-review p {
-	font-size: 1.3em;
-	font-family: times;
-	line-height: 21px;
+.about-review > p {
+	font-size: 1em;
+	font-family: opensans;
+	line-height: auto;
 	text-align: justify;
+	display: inline;
+	border-right: 1px black solid;
+
 }
 
 
-------------------------
-
-
-.adopt-right-column img {
-	display: block;
-	width: 150px;
-	height: 150px;
-	margin: 0 auto;
-	border: thin solid black;
-}
-
-.adopt-right-column h2{
-	margin: 5px;
-	text-align: center;
-	border-bottom: thin solid black;
-}
-
-.adopt-right-column p{
-	margin: 5px;
-}
