@@ -214,21 +214,3 @@ font-size: 1.4em;
 }
 
 
-------------------------
-
-
-.adopt-right-column img {
-	display: block;
-	width: 150px;
-	height: 150px;
-	margin: 0 auto;
-}
-
-.adopt-right-column h2{
-	margin: 5px;
-	text-align: center;
-}
-
-.adopt-right-column p{
-	margin: 5px;
-}

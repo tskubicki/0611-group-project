@@ -1,0 +1,103 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+html body {
+	width: 100%;
+	height: 100%;
+}
+
+.wrapper {
+	width: 960px;
+	min-width: 960px;
+	height: 100%;
+	margin:0 auto;
+}
+
+.nav {
+	text-align: center;
+	padding:30px;
+	margin-bottom:;
+}
+
+ul.nav a {
+	text-decoration: none;
+}
+
+ul.nav li {
+	font-family: Open Sans;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: inline;	
+	list-style: None;
+	word-spacing: 20px;
+
+}
+
+.clearfix {
+	clear:both;
+}
+
+
+.adopt-left-column {
+	box-sizing: border-box;
+	float:left;
+	padding: 15px;
+	width: 66%;
+	text-align: center;
+	border-right: thin solid black;
+}
+
+.adopt-left-column form h1, h4, input {
+	margin:4px;
+	font-family: Open Sans;
+}
+
+.adopt-left-column table {
+	margin: 0 auto;
+}
+
+.adopt-left-column form h1 {
+	padding-bottom: 10px;
+	border-bottom: thin black solid;
+}
+
+.adopt-left-column form input {
+	border: thin solid black;
+}
+
+.adopt-left-column form input[type=submit] {
+	margin:4px;
+	font-family: Open Sans;
+	padding:5px;
+}
+
+.adopt-right-column {
+	box-sizing: border-box;
+	float:left;
+	padding: 15px;
+	width: 34%;
+	font-family: Open Sans;
+}
+
+.adopt-right-column img {
+	display: block;
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	border: thin solid black;
+}
+
+.adopt-right-column h2{
+	margin: 5px;
+	text-align: center;
+	border-bottom: thin solid black;
+}
+
+.adopt-right-column p{
+	margin: 5px;
+}
