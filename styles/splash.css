@@ -1,48 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800italic,800,700italic,600italic,700,600,400italic,300italic,300);
+
+body {
+	padding:0;
+	margin: 0;
+	background-color: black;
+	font-family: 'Open Sans';
+}
 
 
+.content {
+	width: 960px;
+	height: 694px;
+	padding: 0;
+	margin: 0 auto;
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
-
-h1 {
-    padding: 250px;
-	text-align: right;
+.a:hover {
 	color: white;
 }
-.content a {
-	text-decoration: none;
-	
-}
-
 
 .nav {
     text-align: center;
     padding:20px;
-    margin-bottom:;
     background-color: #8b8b6e;
-    border: 2px solid black;
+    border: 5px solid #bbbbbb;
     }
-            
+	
 ul.nav a {
     text-decoration: none;
     color: white;
 }
-
         
 ul.nav li {
-    font-family: arial;
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
     display: inline;    
     list-style: None;
-    word-spacing: 60px;
+    word-spacing: 80px;
 }
-body {
-    background-image: url("../images/background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100%; 
-    font-family: Arial;
-    font-weight: bold;
-    text-align: center;
+
+.text {
+	text-align: center;
+	font-size: 45px;
+	font-weight: bold;
+	padding-top: 450px;
+	}
+	
+.text a {
+	text-decoration: none;
+	color: #B9B9A8;
+}
+	
+a:hover {
+	color: white;
 }

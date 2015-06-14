@@ -10,7 +10,7 @@ body {
 	text-align: center;
 	padding:20px;
 	margin: 15px 0;
-	background-color: #78CFE6;
+	background-color: #7EBCAD;
 	border: 5px solid #bbbbbb;
 }
 
@@ -45,7 +45,7 @@ ul.nav li {
 
 .gallerycontainer h1 {
 	padding: 10px 0;
-	color: #78CFE6;
+	color: #5EAB98;
 }
 
 .gallerytextcontainer {
@@ -76,6 +76,6 @@ ul.nav li {
 }
 
 .dogheader {
-	color: #6CBACF;
+	color: #5EAB98;
 }
 
