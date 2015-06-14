@@ -12,22 +12,31 @@ html body {
 
 .nav {
 	text-align: center;
-	padding:30px;
-	margin-bottom:;
+	padding:20px;
+	margin: 15px 0;
+	background-color: #5592ce;
+	border: 5px solid #bbbbbb;
+}
+
+ul {
+	margin: 0;
 }
 
 ul.nav a {
 	text-decoration: none;
+	color: white;
+	font-family: arial;
+		font-size: 20px;
+
 }
 
 ul.nav li {
-	font-family: arial;
+	font-size: 20px;
 	font-weight: bold;
 	text-transform: uppercase;
 	display: inline;	
 	list-style: none;
-	word-spacing: 20px;
-
+	word-spacing: 80px;
 }
 
 .wrapper {

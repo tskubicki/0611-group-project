@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800italic,800,700italic,600italic,700,600,400italic,300italic,300);
 
 * {
 	margin: 0;
@@ -20,6 +20,43 @@ html body {
 
 .nav {
 	text-align: center;
+	padding:20px;
+	margin: 15px 0;
+	background-color: #B580CF;
+	border: 5px solid #bbbbbb;
+}
+
+ul {
+	margin: 0;
+}
+
+ul.nav a {
+	text-decoration: none;
+	color: white;
+	font-family: 'open sans';
+	font-weight: bold;
+}
+
+ul.nav li {
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: inline;	
+	list-style: None;
+	word-spacing: 80px;
+}
+
+.adopt-left-column  h1 {
+	color: #B580CF;
+}
+
+.adopt-right-column h2 {
+	color: #B580CF;
+	padding-bottom: 10px;
+}
+
+/*.nav {
+	text-align: center;
 	padding:30px;
 	margin-bottom:;
 }
@@ -36,7 +73,9 @@ ul.nav li {
 	list-style: None;
 	word-spacing: 20px;
 
-}
+} */
+
+
 
 .clearfix {
 	clear:both;
