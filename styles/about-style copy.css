@@ -1,0 +1,241 @@
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	font-size: 12px;
+}
+
+html body {
+	width: 100%;
+	height: 100%;
+}
+
+.nav {
+	text-align: center;
+	padding:30px;
+	margin-bottom:;
+}
+
+ul.nav a {
+	text-decoration: none;
+}
+
+ul.nav li {
+	font-family: arial;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: inline;	
+	list-style: none;
+	word-spacing: 20px;
+
+}
+
+.wrapper {
+	width: 960px;
+	/* height: 100%; -> This cuts the background off, 
+	if you scroll at all in the page */ 
+	margin: 0 auto;
+}
+
+.clearfix {
+	clear:both;
+}
+
+
+.adopt-left-column {
+	box-sizing: border-box;
+	float:left;
+	padding: 15px;
+	width: 66%;
+	background-color: lime;
+	text-align: center;
+	border-right: thin solid black;
+}
+
+.adopt-left-column form h1, h4, input {
+	margin:4px;
+	font-family: Arial;
+}
+
+.adopt-left-column table {
+	margin: 0 auto;
+}
+
+.adopt-left-column form h1 {
+	padding-bottom: 10px;
+	border-bottom: thin black solid;
+}
+
+.adopt-left-column form input[type=submit] {
+	margin:4px;
+	font-family: Arial;
+	padding:5px;
+}
+
+.adopt-right-column {
+	box-sizing: border-box;
+	float:left;
+	padding: 15px;
+	width: 34%;
+	background-color: pink;
+}
+
+
+/*ABOUT SECTION*/
+
+
+.about-header > h2{
+	font-size: 3em;
+	text-align: center;
+	padding-bottom: 20px;
+	font-family: opensans;
+	letter-spacing: 0px;
+}
+
+
+.about-header > h2:hover{
+	font-size: 3em;
+	text-align: center;
+	font-family: opensans;
+	letter-spacing: 20px;
+}
+
+.about-bodytextleft{
+	float: left;
+	width: 350px;
+	margin: 20px;
+}
+
+
+.about-bodytextleft h4{
+
+	font-family: arial;
+	font-size: 1.5em;
+	color: grey;
+
+}
+
+.about-bodytextleft p{
+	font-size: 1.3em;
+	line-height: auto;
+	font-family: opensans;
+	text-align: justify;
+
+}
+
+
+.about-bodytextright{
+	float: left;
+	width: 350px;
+	margin: 20px;
+}
+
+.about-bodytextright h4{
+	font-family: arial;
+	font-size: 1.5em;
+	color: grey;
+
+}
+
+
+.about-bodytextright p{
+	font-size: 1.3em;
+	font-family: opensans;
+	line-height: auto;
+	text-align: justify;
+}
+
+
+.about-sideimages{
+	width: 170px;
+	height: auto;
+	float: right;
+
+}
+
+
+.about-sideimages > h3{
+	text-align: center;
+
+}
+
+.about-sideimages img{
+	max-width: 125px;
+	padding:30px;
+	max-height: auto;
+	margin-bottom: -20px;
+}
+
+.about-review .about-sad3 img{
+	width: 100px;
+	height: 100px;	
+	float: left;
+	margin-right: 20px;
+}
+
+.sidebutton {
+	margin-top: 10px;
+	padding: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: arial;
+	font-weight: bold;
+	 background: #cb4e4e;
+    color: #fff;
+    box-shadow: 0 6px #ab3c3c;
+    text-decoration: none;
+}
+
+
+.sidebutton a{
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: arial;
+	font-weight: bold;
+	background: #cb4e4e;
+    color: #fff;
+    box-shadow: 0 6px #ab3c3c;
+}
+
+
+.sidebutton a{
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: arial;
+	font-weight: bold;
+	background: #cb4e4e;
+    color: #fff;
+}
+
+
+.about-review {
+	width: 750px;
+	font-family: arial;
+	float:left;
+	margin-left: 20px;
+}
+
+.about-review h4 {
+font-size: 2em;
+color: grey;
+padding-bottom: 10px;
+}
+
+.about-review h5 {
+font-size: 1.4em;
+
+}
+
+.about-review > p {
+	font-size: 1em;
+	font-family: opensans;
+	line-height: auto;
+	text-align: justify;
+	display: inline;
+	border-right: 1px black solid;
+
+}
+
+
