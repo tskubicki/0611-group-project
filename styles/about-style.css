@@ -183,7 +183,32 @@ ul.nav li {
 	 background: #cb4e4e;
     color: #fff;
     box-shadow: 0 6px #ab3c3c;
+    text-decoration: none;
 }
+
+
+.sidebutton a{
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: arial;
+	font-weight: bold;
+	background: #cb4e4e;
+    color: #fff;
+    box-shadow: 0 6px #ab3c3c;
+}
+
+
+.sidebutton a{
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: arial;
+	font-weight: bold;
+	background: #cb4e4e;
+    color: #fff;
+}
+
 
 .about-review {
 	width: 750px;
